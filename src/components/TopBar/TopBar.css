@@ -11,7 +11,7 @@
 }
 
 .globalnav-content{
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(20px);
     margin: 0 auto;
     box-sizing: border-box;
     width: 100%;

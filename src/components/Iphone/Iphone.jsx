@@ -11,8 +11,10 @@ export function Iphone({
         <>
         <h2>{h2}</h2>
         <h3>{h3}</h3>
-        <p class ="learnmore">Learn More</p>
-        <p class ="buy">Buy</p>
+        <div class="link">
+        <a class ="learnmore">Learn more &gt;</a>
+        <a class ="buy">Buy &gt;</a>
+        </div>
         <img src={image} alt="" />
         </>
     )
