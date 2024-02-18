@@ -7,11 +7,8 @@ export function ButtonTopBar({
   }) {
     return(
         <>
-        <button class="all">
-
+        <button>
        <p>{title}</p>
-
-
         </button>
         </>
     )

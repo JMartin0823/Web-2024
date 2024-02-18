@@ -1,10 +1,18 @@
-.all{
+button {
     display: flex;
-    flex-direction: column;
-    width: 64px;
-    height: 74px;
-    padding: 16px 0 14px;
-    width: 64px;
     align-items: center;
-    justify-content: center;
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 255, 255, .8);
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    line-height: 1;
+    
 }
+
+button:hover {
+    color: #fff;
+}
+
