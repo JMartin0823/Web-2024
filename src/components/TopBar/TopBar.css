@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.DivTopBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 100%;
+     height: 60px;
+     z-index: 100;
+     display: flex;
+     justify-content: space-between;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    width: 100%;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.allIconY{
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 56px;
+    margin-left: 5%;
+}
+
+.search-button{
+    display: flex;
+    width: 13%;
+    height: 40px;
+    border: none;
+    border: 0.25px solid;
+    border-color: #747474;
+    border-radius: 40px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    box-sizing: border-box;
+    background-color: #131313;
+}
+
+.search-input{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: transparent;
+    border: none;
+}
+
+.searchvec{
+    display: flex;
+    width: 24px;
+    height: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.displayButDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+}
+
+.accederText{
+   color: rgb(58, 133, 247);
+}
+
+
+.displayBut2{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.displayBut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+    height: 24px;
+    stroke: rgb(58, 133, 247);
+}
+
+.displayButBut{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: transparent;
+    border: transparent;
+}
+
+.displayButBut:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+.YoutubeIcon{
+    height: 20px;
+    width: 90px;
+}
+
+.microphone{
+    width: 20px;
+    height: 20px;
+}
+
+.microphonebutton{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 100%;
+    background-color: #131313;
+}
+
+.microphonebutton:hover{
+    background-color: rgb(41, 41, 41);
+}
+
+.acceder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 105px;
+    height: 34px;
+    border: 0.25px solid;
+    border-color: white;
+    border-radius: 40px;
+    justify-content: center;
+    
+}
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #131313;
+    border-radius: 40px;
+    box-sizing: border-box;
+    border: 1px;
+    border-width: 10px;
+    border: 1px solid;
+    border-color: rgb(92, 92, 92);
+}
+
+.country-code{
+    font-size: 9px;
+    color:#c9c8c8;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    
+}
