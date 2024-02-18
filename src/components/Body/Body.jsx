@@ -1,5 +1,5 @@
 import React from "react";
-import { TopBar } from "../TopBar/TopBar";
+import "./Body.css"
 import { VisionPro } from "../VisionPro/VisionPro";
 import { Iphone } from "../iPhone/iPhone";
 import {IphoneSection} from "../../data/dataiPhone"
@@ -9,11 +9,7 @@ import { Grid } from "../Grid/Grid";
 export function Body() {
   return (
     <>
-    <header>
-      <TopBar></TopBar>
-    </header>
-
-    <body>
+   <body>
 
     {IphoneSection.map((iphone,key)=>( 
             <Iphone key={key} h2={iphone.h2} h3={iphone.h3} image={iphone.image}></Iphone>
