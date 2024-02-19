@@ -80,7 +80,7 @@
 .iphone{
     width: 3008px;
     height: 736px;
-    background-size: 3008px 736px;
+    background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
     /* position: absolute; */
