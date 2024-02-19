@@ -1,13 +1,16 @@
-/* .all1{
+.all1{
     display: flex;
     flex-direction: column;
     gap: 10px;
     z-index: 3;
-} */
+    align-items: center;
+}
 
 .iphonepro{
+    position: absolute;
     display: flex;
     flex-direction: column;
+    margin-top: 40px;
     gap: 10px;
     z-index: 5;
 }
@@ -80,7 +83,7 @@
     background-size: 3008px 736px;
     background-repeat: no-repeat;
     z-index: -1;
-    position: absolute;
+    /* position: absolute; */
     border: 0;
     margin: 0;
     padding: 0;

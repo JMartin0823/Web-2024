@@ -1,10 +1,9 @@
-/* .all2{
+.all2{
     display: flex;
     flex-direction: column;
     gap: 10px;
-    position: absolute;
-    z-index: 3;
-} */
+    align-items: center;
+}
 
 .iphoneall {
     display: flex;
@@ -12,16 +11,14 @@
     gap: 10px;
     position: absolute;
     z-index: 5;
-    left: 50%;
-    top: 80%;
-    transform: translateX(-50%);
+    margin-top: 2%;
 }
 
 
 .iph15h2{
     font-size: 56px;
     color: #1d1d1f;
-    font-weight: 545;
+    font-weight: 600;
     letter-spacing: -.005em;
     font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     text-align: center;
@@ -85,14 +82,10 @@
     background-size: 3008px 736px;
     background-repeat: no-repeat;
     z-index: -1;
-    position: absolute;
     border: 0;
     margin: 0;
     padding: 0;
     left: calc(50% + 0px);
     right: auto;
     bottom: 0px;
-    top: 75%;
-    -webkit-transform: translatex(-50%);
-    transform: translatex(-50%);
 }
