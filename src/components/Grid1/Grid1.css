@@ -1,0 +1,83 @@
+.all4{
+    width: 1261.99px;
+    height: 579.98px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.link{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 0;
+}
+
+.link a {
+    text-decoration: none; 
+    color: #2997ff; 
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+
+.learnmore{
+    margin-left: -4px;
+    pointer-events: all;
+    color: #2997ff;
+    letter-spacing: inherit;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.buy{
+    margin-left: 35px;
+    pointer-events: all;
+    color: #2997ff;
+    letter-spacing: inherit;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.logo{
+    z-index: 3;
+    width: 138px;
+    height: 53px;
+    background-size: 275px 56px;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    flex-shrink: 1;
+}
+
+.gridtext {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    z-index: 5;
+    margin-top: 18%;
+    
+}
+
+.gridh5{
+    font-size: 28px;
+    color: #1d1d1f;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+}

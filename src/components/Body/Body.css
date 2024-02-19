@@ -3,3 +3,8 @@
     flex-direction: column;
     position: relative;
 }
+
+.gridsection{
+    display: flex;
+  flex-wrap: wrap;
+}
