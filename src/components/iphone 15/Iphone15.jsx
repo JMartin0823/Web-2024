@@ -6,16 +6,16 @@ export function Iphone15({
   }) {
     return(
         <>
-        <div class="all2">
-        <div class="iphoneall">
-        <h2 class="iph15h2">iPhone 15</h2>
-        <h3 class="iph15h3">New camera. New design. Newphoria.</h3>
-        <div class="link">
-        <a class ="learnmore">Learn more &gt;</a>
-        <a class ="buy">Buy &gt;</a>
+        <div className="all2">
+        <div className="iphoneall">
+        <h2 className="iph15h2">iPhone 15</h2>
+        <h3 className="iph15h3">New camera. New design. Newphoria.</h3>
+        <div className="link">
+        <a className ="learnmore">Learn more &gt;</a>
+        <a className ="buy">Buy &gt;</a>
         </div>
         </div>
-        <img class="iphone15" src="https://www.apple.com/v/home/bk/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg" alt="" />
+        <img className="iphone15" src="https://www.apple.com/v/home/bk/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg" alt="" />
         </div>
         </>
     )

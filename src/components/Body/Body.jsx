@@ -4,6 +4,7 @@ import { VisionPro } from "../VisionPro/VisionPro";
 import { Iphone } from "../Iphone/Iphone";
 import { Iphone15 } from "../iphone 15/Iphone15";
 import { Macbook } from "../Macbook/Macbook";
+import {Grid} from "../Grid/Grid";
 // import { Shows } from "../Shows/Shows";
 // import { dataShows } from "../../data/datashows";
 
@@ -16,10 +17,9 @@ export function Body() {
     <Iphone></Iphone>
     <Iphone15></Iphone15>
     <VisionPro></VisionPro>
+    <Grid className="grid"></Grid>
   </div>
-  {/* {dataShows.map((Shows,key)=>( 
-            <Shows key={key} image={Shows.image}></Shows>
-        ))} */}
+  
     </body>
     </>
   );

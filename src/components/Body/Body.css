@@ -1,6 +1,13 @@
-.iphone{
-    display: flex;
-    flex-direction: column;
-    position: relative;
+.iphone {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  grid-gap: 10px; 
+  justify-items: stretch; 
+  align-items: start; 
+}

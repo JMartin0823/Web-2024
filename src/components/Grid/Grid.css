@@ -1,0 +1,85 @@
+.allgrid {
+    position: relative;
+    overflow: hidden;
+    min-height: 580px;
+  }
+  
+  .gridtext {
+    position: absolute;
+    top: 15%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    width: 80%; 
+    text-align: center;
+  }
+  
+.gridh4{
+    font-size: 40px;
+    color: #1d1d1f;
+    font-weight: 545;
+    letter-spacing: -.005em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.gridh5{
+    font-size: 21px;
+    color: #1d1d1f;
+    font-weight: 400;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.link{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-bottom: 0;
+}
+
+.link a {
+    text-decoration: none; 
+    color: #2997ff; 
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+
+.learnmore{
+    margin-left: -4px;
+    pointer-events: all;
+    color: #2997ff;
+    letter-spacing: inherit;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.buy{
+    margin-left: 35px;
+    pointer-events: all;
+    color: #2997ff;
+    letter-spacing: inherit;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.gridimage {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  overflow: hidden;
+}
+
+  
