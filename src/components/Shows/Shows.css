@@ -1,0 +1,22 @@
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .carousel button {
+    color: rgb(177, 177, 177);
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .carousel img {
+    max-width: auto;
+    max-height: 736px; 
+    margin: 0 20px;
+  }
+  
