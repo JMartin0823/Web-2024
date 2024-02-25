@@ -6,8 +6,7 @@ import { Iphone15 } from "../iphone 15/Iphone15";
 import { Macbook } from "../Macbook/Macbook";
 import {Grid} from "../Grid/Grid";
 import { Carousel } from "../Shows/Shows";
-// import { Shows } from "../Shows/Shows";
-// import { dataShows } from "../../data/datashows";
+import { Footer } from "../Footer/Footer";
 
 export function Body() {
   return (
@@ -20,6 +19,7 @@ export function Body() {
     <VisionPro></VisionPro>
     <Grid className="grid"></Grid>
     <Carousel className="carousel"></Carousel>
+    <Footer></Footer>
   </div>
   
     </body>
