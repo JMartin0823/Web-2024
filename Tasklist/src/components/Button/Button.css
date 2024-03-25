@@ -1,0 +1,24 @@
+button {
+    padding-left: 33px;
+    padding-right: 33px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border-radius: 9px;
+    background: #d5f365;
+    border: none;
+    font-family: inherit;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.4s;
+    color: black;
+   }
+   
+   button:hover {
+    box-shadow: 7px 5px 56px -14px #C3D900;
+   }
+   
+   button:active {
+    transform: scale(0.97);
+    box-shadow: 7px 5px 56px -10px #C3D900;
+   }

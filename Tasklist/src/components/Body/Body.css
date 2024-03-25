@@ -1,0 +1,13 @@
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 3.5rem;
+    /* text-decoration: overline ; */
+    border-bottom: 4px solid white;
+   
+}

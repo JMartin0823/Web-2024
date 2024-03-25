@@ -1,0 +1,15 @@
+.inputdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d5f365;
+}
+
+.inputsel{
+    display: flex;
+}
+
+.allindiv{
+    display: flex;
+    padding: 2%;
+}
